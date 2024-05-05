@@ -1,0 +1,17 @@
+//wallpaper of home
+https://images.wallpaperscraft.com/image/single/library_books_reading_125466_2560x1440.jpg
+//about us photo
+https://cdn.dribbble.com/userupload/4297768/file/original-1f9df4fa87c28b1efa186b213f275772.jpg?resize=752x
+
+//pen test
+https://raw.githubusercontent.com/CATReloaded/CATReloaded-Circles-Roadmaps-2024/main/CyberSecurity/img/pt1.png
+
+//network
+https://raw.githubusercontent.com/CATReloaded/CATReloaded-Circles-Roadmaps-2024/main/CyberSecurity/img/nw.jpg
+
+//crypto
+https://as2.ftcdn.net/v2/jpg/00/89/97/39/1000_F_89973923_0lfduzsXEqiKKGN71ruGQ4kdf0dgnQid.jpg
+
+//soc
+https://i0.wp.com/mycloudwiki.com/wp-content/uploads/2020/04/security-operations-center-e1587142945245.png
+

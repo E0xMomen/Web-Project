@@ -1,0 +1,318 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 1000000;
+    background-color: white;
+    height: 80px;
+}
+
+header.sticky
+{
+    padding: 5px 100px;
+    background-color: #007bb6;
+    height: 75px;
+}
+
+header.sticky span
+{
+    color: white;   
+}
+
+header.sticky ul a
+{
+    list-style-type: none;
+    margin: 0 15px;
+    transform: translate(100px,0px) ;
+    color: white;
+}
+
+
+
+header img
+{
+    width: 90px ;
+    height: 90px;
+    /* transform: translate(80px,0px); */
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style-type: none;
+    margin: 0 15px;
+    transform: translate(100px,0px) ;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.6s;
+    color: black;
+}
+
+header ul li a:hover{
+    transition: 0.6ms;
+    font-size: 20px;
+}
+
+
+header span
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(180px,0px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.wallpaperscraft.com/image/single/library_books_reading_125466_2560x1440.jpg);
+    background-size: cover;
+    z-index: -1; /* Move the background image to the back */
+}
+
+.banner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the transparency here */
+}
+
+
+.banner pre
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    z-index: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#AboutUs
+{
+   display: flex;
+   margin-top:100px ;
+   margin-bottom:100px ;
+   margin-left: 0px;
+   justify-content: space-evenly;
+
+}
+
+.photo {
+    display: flex;
+    width: 250px;
+    height: 500px;
+}
+
+.calam span
+{
+    display: block;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #007bb6;
+}
+
+.calam  {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    width: 550px;
+}
+
+.booksPhoto{
+    display: flex;
+   justify-content: space-evenly;
+
+}
+.booksPhoto a img
+{
+    width: 400px;
+    height: 260px;
+    /* border: 1px solid black; */
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    margin-bottom: -4px;
+}
+
+.topphotobref {
+    display: flex;
+   justify-content: space-evenly;
+
+}
+.topphotobref div
+{
+    width: 400px;
+    /* border: 1px solid black; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    border-top: none;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.booksPhotodow a img
+{
+    width: 400px;
+    height: 260px;
+    /* border: 1px solid black; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: translate(0px, 3px);
+}
+.topphtobrefdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 400px; 
+    margin: 0 auto; 
+    
+}
+
+
+
+#Category h2
+{
+    
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #007bb6;
+
+}
+#Category p
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.team-card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card img {
+    width: 300;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    height: 260px;
+}
+
+.team-card .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover .info {
+    transform: translateY(0);
+}
+
+.team-card h3 {
+    color: lightblue;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.team-card p {
+    margin: 0;
+    color: white;
+}
+
+
+footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 40px 0;
+}
+
+
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Add this CSS to your stylesheet */
+/* Hover animation for images */
+/* Add this CSS to your stylesheet */
+/* Hover animation for images */
+.booksPhoto img, .booksPhotodow img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for both transform and box-shadow */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.booksPhoto img:hover, .booksPhotodow img:hover {
+    transform: translateY(-5px); /* Move image up slightly on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+
