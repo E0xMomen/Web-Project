@@ -129,7 +129,7 @@
 <body>
   <div class="registration-form">
     <h1>User Registration</h1>
-    <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
       <div>
         <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
         <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
@@ -149,6 +149,9 @@
         <option value="other">Other</option>
       </select>
       <button type="submit">Register</button>
+      <button style="margin-top: 10px;" type="submit"><a style="color: white;text-decoration: none;"
+          href="Login-page.php">Login</a></button>
+
 
       <?php
       include "conect.php";

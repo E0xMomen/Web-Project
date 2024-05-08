@@ -92,8 +92,9 @@
             <a href="books.php" class="nav-button">Books</a>
             <a href="users.php" class="nav-button">Users</a>
             <a href="Admin-Info.php" class="nav-button">Admins</a>
-            <a href="AfterLogin.php" class="nav-button">Home Page</a>
+            <!-- <a href="AfterLogin.php" class="nav-button">Home Page</a> -->
             <a href="blogs.php" class="nav-button">The Blog</a>
+            <a href="logout.php" class="nav-button">Logout</a>
         </div>
     </div>
 </body>

@@ -29,6 +29,7 @@ $name = $_SESSION["name"];
             <li><a href="#Category">Category</a></li>
             <li><a href="#Cont_US">Contact Us</a></li>
             <li><a href="Personal.php"><label for="" style="cursor: pointer;"><?php echo "$name" ?></label></a>
+            <li><a href="logout.php">Logout</a></li>
             </li>
         </ul>
     </header>

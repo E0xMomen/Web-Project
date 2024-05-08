@@ -25,6 +25,7 @@ $e = $_SESSION["email"];
                 <li><a href="./afterlogin.php">Category</a></li>
                 <li><a href="./afterlogin.php">Contact Us</a></li>
                 <li><a href=""><label style="cursor: pointer;"><?php echo $name ?></label></a></li>
+                <li><a href="logout.php">Logout</a></li>
             </ul>
         </nav>
     </header>
@@ -50,7 +51,7 @@ $e = $_SESSION["email"];
                     $result = $con->query($sql);
                     if ($result->num_rows > 0) {
                         while ($row = $result->fetch_assoc()) {
-                            $id=$row['id'];
+                            $id = $row['id'];
                             echo "
                                 <div style='margin:10px' class='blog-card'>
                                 <h3>title: $row[type]</h3>
