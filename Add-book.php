@@ -167,7 +167,7 @@
 
 
                     if (move_uploaded_file($p_img_tmp, 'images/' . $p_img)) {
-                        echo '<script>alert("image is saved in th file and database");</script>';
+                        echo '<script>alert("image is saved in the file and database");</script>';
                     } else {
                         echo '<script>alert("image is not saved");</script>';
                     }

@@ -26,7 +26,7 @@ require_once "conect.php";
             <li><a href="#AboutUs">About Website</a></li>
             <li><a href="#Category">Category</a></li>
             <li><a href="#">Contact Us</a></li>
-            <li><a href="#"><label for="" style="cursor: pointer;">User_name</label></a></li>
+            
         </ul>
     </header>
     <section class="banner"></section>
@@ -77,7 +77,7 @@ require_once "conect.php";
                             <td>$row[number_page]  </td>
                             <td>$row[level] </td>
                             <td> $row[create_at] </td>
-                            <td><button class='botn'><span class='text'><a href='$row[link]'>Download</a></span></button></td>
+                            <td><button class='botn'><span class='text'><a class'down' href='$row[link]'>Download</a></span></button></td>
                         </tr>
                         ";
                     }

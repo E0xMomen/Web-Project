@@ -23,7 +23,7 @@
             <li><a href="#AboutUs">About Website</a></li>
             <li><a href="#Category">Category</a></li>
             <li><a href="#">Contact Us</a></li>
-            <li><a href="#"><label for="" style="cursor: pointer;">User_name</label></a></li>
+            
         </ul>
     </header>
     <section class="banner"></section>
